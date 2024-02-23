@@ -106,7 +106,7 @@ input {
 }
 
 input:hover {
-  border: 1px solid #000;
+  border: 1px solid #000000;
   border-radius: 4px;
 }
 input:active,
