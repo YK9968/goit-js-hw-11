@@ -18,7 +18,6 @@ function handleSearchImg(event) {
   galleryListEl.innerHTML = '';
 
   if (inputEL.value.trim() === '') {
-    formSearchImg.reset();
     return;
   }
   loaderEl.classList.add('loader');
@@ -32,7 +31,6 @@ function handleSearchImg(event) {
         backgroundColor: '#EF4040',
         position: 'topRight',
         messageSize: 16,
-        maxWidth: 902,
         layout: 2,
         maxWidth: 380,
         theme: 'dark',
